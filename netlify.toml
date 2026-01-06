@@ -1,0 +1,10 @@
+[build]
+command = "npx next build"
+publish = ".next"
+
+[build.environment]
+NEXT_PUBLIC_SUPABASE_URL = "https://lrmbiqyjbzetxopgxptt.supabase.co"
+NEXT_PUBLIC_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxybWJpcXlqYnpldHhvcGd4cHR0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc0MjM2ODIsImV4cCI6MjA4Mjk5OTY4Mn0.6S80QAV7wpOsISqCtGa3Mb6p8Z1QT5Y0x4WtBuJO_CI"
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"
